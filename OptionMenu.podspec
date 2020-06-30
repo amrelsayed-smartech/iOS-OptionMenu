@@ -16,10 +16,8 @@ Pod::Spec.new do |spec|
 
     spec.ios.deployment_target  = '10.0'
     spec.source_files = 'OptionMenu/Classes/**/*'
-
     spec.dependency 'MaterialComponents/BottomSheet'
     spec.dependency 'Localize-Swift'
-
     spec.swift_version = '5.1'
 
 end
