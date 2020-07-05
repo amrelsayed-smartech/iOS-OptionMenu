@@ -1,6 +1,7 @@
 PODS:
   - Localize-Swift (3.1.0)
-  - MaterialComponents/BottomSheet (101.1.1):
+  - MaterialComponents/Availability (110.1.0)
+  - MaterialComponents/BottomSheet (110.1.0):
     - MaterialComponents/Elevation
     - MaterialComponents/private/KeyboardWatcher
     - MaterialComponents/private/Math
@@ -8,27 +9,29 @@ PODS:
     - MaterialComponents/ShadowLayer
     - MaterialComponents/ShapeLibrary
     - MaterialComponents/Shapes
-  - MaterialComponents/Elevation (101.1.1):
+  - MaterialComponents/Elevation (110.1.0):
+    - MaterialComponents/Availability
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
-  - MaterialComponents/private/Application (101.1.1)
-  - MaterialComponents/private/Color (101.1.1)
-  - MaterialComponents/private/KeyboardWatcher (101.1.1):
+  - MaterialComponents/private/Application (110.1.0)
+  - MaterialComponents/private/Color (110.1.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/KeyboardWatcher (110.1.0):
     - MaterialComponents/private/Application
-  - MaterialComponents/private/Math (101.1.1)
-  - MaterialComponents/ShadowElevations (101.1.1)
-  - MaterialComponents/ShadowLayer (101.1.1):
+  - MaterialComponents/private/Math (110.1.0)
+  - MaterialComponents/ShadowElevations (110.1.0)
+  - MaterialComponents/ShadowLayer (110.1.0):
     - MaterialComponents/ShadowElevations
-  - MaterialComponents/ShapeLibrary (101.1.1):
+  - MaterialComponents/ShapeLibrary (110.1.0):
     - MaterialComponents/private/Math
     - MaterialComponents/Shapes
-  - MaterialComponents/Shapes (101.1.1):
+  - MaterialComponents/Shapes (110.1.0):
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowLayer
-  - OptionMenu (2.0.7):
-    - Localize-Swift (~> 3.1)
-    - MaterialComponents/BottomSheet (~> 101.0)
+  - OptionMenu (2.0.9):
+    - Localize-Swift
+    - MaterialComponents/BottomSheet
 
 DEPENDENCIES:
   - Localize-Swift
@@ -46,8 +49,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Localize-Swift: 4bed4f0ccac8be2ec3517ee359da80ba2adb0fae
-  MaterialComponents: ee54e69c0956bd6e341933eee6f34dc6df08ee7a
-  OptionMenu: 278edad7125bf274248d6c1ddf2ff4d42761a98e
+  MaterialComponents: 4cb6659322cfc38bb0a7e40fba1866daaefeb12c
+  OptionMenu: 88f0a0ba5cef715d5098946c14a559f5f9f18030
 
 PODFILE CHECKSUM: 9f4bdb2dcb53dee86576ebd1ca18edeb3c8a6f7f
 
