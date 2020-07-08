@@ -8,5 +8,4 @@ target 'OptionMenu_Tests' do
   pod 'OptionMenu', :path => '../'
   pod 'MaterialComponents/BottomSheet'
   pod 'Localize-Swift'
-
 end
